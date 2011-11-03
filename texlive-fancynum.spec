@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/fancynum
+# catalog-date 2008-04-19 23:11:03 +0200
+# catalog-license other-free
+# catalog-version 0.92
 Name:		texlive-fancynum
 Version:	0.92
 Release:	1
@@ -50,6 +56,7 @@ point numbers, such as you find in program output.
 %doc %{_texmfdistdir}/source/latex/fancynum/fancynum.dtx
 %doc %{_texmfdistdir}/source/latex/fancynum/fancynum.ins
 %doc %{_texmfdistdir}/source/latex/fancynum/tables.c
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -60,3 +67,5 @@ point numbers, such as you find in program output.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
