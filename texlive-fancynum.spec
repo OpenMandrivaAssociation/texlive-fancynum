@@ -56,3 +56,17 @@ point numbers, such as you find in program output.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.92-2
++ Revision: 751757
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.92-1
++ Revision: 718414
+- texlive-fancynum
+- texlive-fancynum
+- texlive-fancynum
+- texlive-fancynum
+
