@@ -6,7 +6,7 @@
 # catalog-version 0.92
 Name:		texlive-fancynum
 Version:	0.92
-Release:	10
+Release:	11
 Summary:	Typeset numbers
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fancynum
