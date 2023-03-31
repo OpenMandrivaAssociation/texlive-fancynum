@@ -1,6 +1,6 @@
 Name:		texlive-fancynum
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Typeset numbers
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fancynum
